@@ -235,6 +235,17 @@ img {
 flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
+.values-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
 .text-content {    
         font-weight: 400;
         font-size: 16px;
